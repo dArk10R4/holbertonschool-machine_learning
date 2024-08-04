@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Write a function def add_matrices2D(mat1, mat2): 
+Write a function def add_matrices2D(mat1, mat2):
 \that adds two matrices element-wise:
 
-You can assume that mat1 and mat2 are 2D matrices 
+You can assume that mat1 and mat2 are 2D matrices
 containing ints/floats
-You can assume all elements in the same dimension 
+You can assume all elements in the same dimension
 are of the same type/shape
 You must return a new matrix
 If mat1 and mat2 are not the same shape, return None
