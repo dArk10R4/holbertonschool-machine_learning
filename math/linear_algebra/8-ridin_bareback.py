@@ -18,5 +18,5 @@ def mat_mul(mat1, mat2):
     if len(mat1[0]) != len(mat2):
         return None
 
-    return [dot(mat1[i], mat2[:][j]) for j in
-            range(len(mat2[0])) for i in range(len(mat1))]
+    return [[dot(mat1[i], [row[j] for row in mat2]) for j in
+            range(len(mat2[0]))] for i in range(len(mat1))]
